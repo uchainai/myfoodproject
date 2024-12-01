@@ -1,0 +1,28 @@
+#recipicontainer {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 60px;
+  width: 80%;
+  margin: 10px auto;
+  background-color: rgb(85, 58, 19);
+  color: black;
+  padding: 10px;
+  place-items: center;
+}
+.recipediv {
+  background-color: aliceblue;
+  padding: 10px auto;
+}
+.recipe {
+  background-color: rgb(120, 214, 221);
+  color: black;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border: 10px;
+  cursor: pointer;
+}
+.recipe h3 {
+  font-size: 24px;
+}
