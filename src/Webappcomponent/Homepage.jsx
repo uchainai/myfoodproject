@@ -5,7 +5,7 @@ const FoodLoverPage = () => {
     <div
       className="w-full h-screen flex justify-center items-center bg-cover bg-center"
       style={{
-        backgroundImage: "url(./image/hello.jpg)",
+        backgroundImage: "url(./img/hello.jpg)",
       }}
     >
       <div className="text-center text-white">

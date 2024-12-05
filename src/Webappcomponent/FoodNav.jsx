@@ -45,7 +45,7 @@ function FoodNav() {
         <div className="flex-1 justify-around ">
           <div>
             <NavLink
-              className="btn btn-ghost text-2xl  text-black font-bold hover:translate-2   scale-105  "
+              className="btn btn-ghost  text-2xl  text-black font-bold hover:translate-2   scale-105  "
               to="/logo"
               end
             >
@@ -76,7 +76,7 @@ function FoodNav() {
         </div>
 
         <div className="gap-2 sm:flex flex-row">
-          <div className="form-control flex flext-col sm:flex flex-row">
+          <div className="form-control flex flex-col sm:flex flex-row">
             <input
               id="searchBox"
               type="text"
@@ -101,7 +101,7 @@ function FoodNav() {
               className="btn btn-ghost btn-circle avatar"
             >
               <div className="w-10 rounded-full">
-                <img src="./image/pro.jpg" alt="photo" />
+                <img src="./img/pro.jpg" alt="photo" />
               </div>
             </div>
 
@@ -124,9 +124,7 @@ function FoodNav() {
             </ul>
           </div>
           <div>
-            <button className="btn bg-slate-300 border-none outline-none text-black font-bold hover:bg-slate-200">
-              singup
-            </button>
+            
           </div>
         </div>
       </div>
